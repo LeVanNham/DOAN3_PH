@@ -2357,6 +2357,26 @@ design rules under a new name.</description>
 <wire x1="42.2" y1="48.2" x2="42.2" y2="44.9" width="0.3048" layer="1"/>
 <wire x1="42.2" y1="44.9" x2="43" y2="44.1" width="0.3048" layer="1"/>
 <wire x1="43.4" y1="49.6" x2="46.99" y2="53.19" width="0.3048" layer="1"/>
+<polygon width="0.3048" layer="16" isolate="0.4064" thermals="no">
+<vertex x="19.1" y="80.5"/>
+<vertex x="100.3" y="80.5"/>
+<vertex x="100.3" y="6"/>
+<vertex x="19.1" y="6"/>
+</polygon>
+<polygon width="0.3048" layer="1" isolate="0.4064" thermals="no" locked="yes">
+<vertex x="99.246" y="80.3" curve="-90"/>
+<vertex x="99.5" y="80.046"/>
+<vertex x="99.5" y="44.4"/>
+<vertex x="57.754" y="44.4" curve="90"/>
+<vertex x="57.5" y="44.146"/>
+<vertex x="57.5" y="12"/>
+<vertex x="99.846" y="12" curve="-90"/>
+<vertex x="100.1" y="11.746"/>
+<vertex x="100.1" y="6.5"/>
+<vertex x="19.754" y="6.5" curve="-90"/>
+<vertex x="19.5" y="6.754"/>
+<vertex x="19.5" y="80.2"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="2"/>
@@ -2779,6 +2799,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
