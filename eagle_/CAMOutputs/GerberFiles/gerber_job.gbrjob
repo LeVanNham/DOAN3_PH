@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-04-04T17:30:59Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "do_ph"
+        },
+        "Owner": "Nham Le Van <nhamlevan.92@gmail.com>",
+        "Size": {
+            "X": 80.1,
+            "Y": 73.6
+        }
+    }
+}
